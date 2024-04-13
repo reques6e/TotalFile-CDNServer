@@ -1,0 +1,12 @@
+{
+    "server": {
+        "mail": "admin@localhost.net",
+        "protocol": "http",
+        "domain": "127.0.0.1",
+        "port": "5000",
+        "allowed_files": ["txt", "pdf", "png", "jpg", "jpeg", "gif", "html"],
+        "path_files": "data/cdn",
+        "limit": 200,
+        "allowed_ips": ["124.33.211.235", "*"]
+    }
+}
